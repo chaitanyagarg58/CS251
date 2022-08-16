@@ -82,7 +82,7 @@ section #services li span {
 }
 
 .grid {
-  border-color: #ffffff;
+  border-color: rgb(255, 255, 255);
   border: 3px;
   margin-top: 3em;
 }
