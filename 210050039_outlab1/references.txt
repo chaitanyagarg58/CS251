@@ -1,0 +1,4 @@
+bootstrap: https://getbootstrap.com/docs/4.3/getting-started/introduction/
+navigation: https://getbootstrap.com/docs/4.3/components/navbar/
+images are from: https://source.unsplash.com/
+footer: https://csshint.com/bootstrap-social-media-icons/
