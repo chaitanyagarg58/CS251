@@ -12,6 +12,9 @@
   <!-- My CSS-->
   <link rel="stylesheet" href="style.css">
 
+  <!-- My JavaScript -->
+  <script src="script.js"></script>
+
   <!-- CSS for footer -->
   <link href="https://fonts.googleapis.com/css?family=Raleway+Dots" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
@@ -55,24 +58,53 @@
     <br><br>
   </header>
 
-  <img src="https://source.unsplash.com/1600x700/?tech,style" class="img-fluid" alt="Image Couldn't Load.">
-
-  <div class="container marketing">
-    <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
-      <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="./pic1.jpeg"></rect><text x="50%" y="50%" fill="#777"
-          dy=".3em">140x140</text>
-      </svg>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
+  <div class="container text-block text-center">
+    <h1><u>My Hobbies</u></h1>
+    <h4>Select the hobbies you want to know more about and Submit.</h4>
   </div>
+  <div class="container info2">
+    <input type="checkbox" id="coding" name="coding" value="coding">
+    <span>Coding</span>
+    <br>
+    <div class="container hiddentext" id="code-para">
+      <span>
+        <p>
+          I like to code, and look for more compact and efficient algorithms.<br>
+          I have been coding seen the start of my study at IITB.<br>
+        </p>
+      </span>
+    </div>
+
+    <input type="checkbox" id="tt" name="tt" value="tt">
+    <span>Table Tennis</span>
+    <br>
+    <div class="container hiddentext" id="tt-para">
+      <span>
+        <p>
+          I have been playing Table Tennis since 11th class and I enjoy it a lot.<br>
+          Not getting enough time recently so it is at a pause, but would really like to continue playing it.<br>
+        </p>
+      </span>
+    </div>
+
+    <input type="checkbox" id="walk" name="walk" value="walk">
+    <span>Walk</span>
+    <br>
+    <div class="container hiddentext" id="walk-para">
+      <span>
+        <p>
+          I really enjoy walking around the IIT Bombay campus, with all the greenery around and the nice weather.<br>
+          It helps me calm down.<br>
+        </p>
+      </span>
+    </div>
+
+    <br><br>
+
+    <button type="button" class="btn btn-info btn-lg" onclick="hobby()">Know More</button>
+  </div>
+
+  <br><br><br><br><br><br><br>
 
   <!-- Footer -->
   <footer>

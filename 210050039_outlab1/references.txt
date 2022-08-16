@@ -2,3 +2,4 @@ bootstrap: https://getbootstrap.com/docs/4.3/getting-started/introduction/
 navigation: https://getbootstrap.com/docs/4.3/components/navbar/
 footer: https://csshint.com/bootstrap-social-media-icons/
 Table: https://getbootstrap.com/docs/4.1/content/tables/
+overlay     fading: https://stackoverflow.com/questions/21086385/how-to-make-in-css-an-overlay-over-an-image
