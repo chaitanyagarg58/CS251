@@ -1,14 +1,14 @@
 function hobby() {
-    var text = "The following hobbies have been selected: \n";
+    var text = "The following hobbies have been selected: \n\n";
     var t = [3];
     t[0] = "Coding \n";
     t[1] = "Table Tennis \n";
     t[2] = "Walk \n";
     
     var para = [3];
-    para[0] = document.getElementById("code-para");
-    para[1] = document.getElementById("tt-para");
-    para[2] = document.getElementById("walk-para");
+    para[0] = document.getElementById("codeinfo");
+    para[1] = document.getElementById("ttinfo");
+    para[2] = document.getElementById("walkinfo");
     
     let check = [3];
     check[0] = document.querySelector('#coding:checked') != null;
